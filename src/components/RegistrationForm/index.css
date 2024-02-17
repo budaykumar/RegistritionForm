@@ -1,0 +1,46 @@
+.bgCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 25px;
+  height: 200px;
+}
+.heading {
+  color: #ea580c;
+  font-size: 30px;
+}
+.button {
+  background-color: #ea580c;
+  color: white;
+  height: 25px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.errorMsg {
+  color: #ff0b37;
+}
+
+.successCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.successBtn {
+  background-color: #ea580c;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: 0px;
+  height: 25px;
+  cursor: pointer;
+}
